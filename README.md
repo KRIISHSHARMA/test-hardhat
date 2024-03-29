@@ -30,23 +30,16 @@ npx hardhat init
 ```
 - Select `Create a JavaScript project`
 - When Hardhat is run, it searches for the closest hardhat.config.js file starting from the current working directory. This file normally lives in the root of your project and an empty hardhat.config.js is enough for Hardhat to work. The entirety of your setup is contained in this file.
-![Uploading image.png…]()
-
-
-
-- installing Plugin In this tutorial we are going to use hardhat's recommended plugin, `@nomicfoundation/hardhat-toolbox`, which has everything you need for developing smart contracts.
-
-```
-npm install --save-dev @nomicfoundation/hardhat-toolbox
-```
-- also add this line in `hardhat.config.js`
-```
-require("@nomicfoundation/hardhat-toolbox");
-```
-![image](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/44967c31-0e8f-4ea8-bf6c-da013996b05f)
 
 # Writing and Compiling Contracts 
-- Write a simple Contract
+- In your /contracts directory, go ahead and delete the Lock.sol that Hardhat includes for you by default
+- Run create a sol file
+- for example creating a faucet contract
+
+# Adding Testfile structure 
+- building unit test for the contract
+- In the /test folder, clean and rename the sample file included by Hardhat either from Lock.js to FaucetTests.js as Lock.js is the unit test for already made Lock.sol contract that we deleted
+- create a test file to test your contract
 
 
 
