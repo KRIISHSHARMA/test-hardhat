@@ -42,3 +42,14 @@ npx hardhat init
  - Solution :
     1. Make sure that the solidity version in `hardhat.config.js` is the same as in Token.sol or any solidity file you create
     2. Move your Sol file to a `contract` folder 
+
+# Testing The Contract
+- "Writing automated tests when building smart contracts is of crucial importance, as your user's money is what's at stake".
+- "To test our contract, we are going to use Hardhat Network, a local Ethereum network designed for development. It comes built-in with Hardhat, and it's used as the default network. You don't need to setup anything to use it."
+- "going to use ethers.js to interact with the Ethereum contract we built in the previous section, and we'll use Mochas our test runner."
+- create file Token.js
+- run the follwoing cmd
+```
+npx hardhat test
+```
+- paste photo here
