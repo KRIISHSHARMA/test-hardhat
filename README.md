@@ -34,11 +34,11 @@ npx hardhat init
 
 # Writing and Compiling Contracts 
 - Make a Token.sol (or file with any name) and wirte a basic contact in it
-- To compile the contract run `npx hardhat` compile in your terminal.
+- To compile the contract run `npx hardhat compile` in your terminal.
 
 - paste photo here
 ## Issues i faced while compiling
- - No file to compile error after cmd `npx hardhat commit`
+ - No file to compile error after cmd `npx hardhat compile`
  - Solution :
     1. Make sure that the solidity version in `hardhat.config.js` is the same as in Token.sol or any solidity file you create
     2. Move your Sol file to a `contract` folder 
