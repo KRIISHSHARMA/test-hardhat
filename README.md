@@ -41,7 +41,8 @@ npm install --save-dev @nomicfoundation/hardhat-toolbox
 
 ![image](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/44967c31-0e8f-4ea8-bf6c-da013996b05f)
 
-
+# Writing and Compiling Contracts 
+- Write a simple Contract
 
 
 
