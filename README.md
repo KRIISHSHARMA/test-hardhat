@@ -28,9 +28,11 @@ npm install --save-dev hardhat
 ```
 npx hardhat init
 ```
-- select `Create an empty hardhat.config.js`
+- Select `Create a JavaScript project`
 - When Hardhat is run, it searches for the closest hardhat.config.js file starting from the current working directory. This file normally lives in the root of your project and an empty hardhat.config.js is enough for Hardhat to work. The entirety of your setup is contained in this file.
-![image](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/46dfac60-be4e-4b8c-9286-7d02f714dbc8)
+![Uploading image.png…]()
+
+
 
 - installing Plugin In this tutorial we are going to use hardhat's recommended plugin, `@nomicfoundation/hardhat-toolbox`, which has everything you need for developing smart contracts.
 
