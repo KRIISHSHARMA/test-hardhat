@@ -30,13 +30,15 @@ npx hardhat init
 ```
 - Select `Create a hardhat.config.js`
 - When Hardhat is run, it searches for the closest hardhat.config.js file starting from the current working directory. This file normally lives in the root of your project and an empty hardhat.config.js is enough for Hardhat to work. The entirety of your setup is contained in this file.
-- paste photo here
+![Screenshot from 2024-03-29 15-50-46](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/ad0e2413-970d-452d-835d-01871ec21882)
+
 
 # Writing and Compiling Contracts 
 - Make a Token.sol (or file with any name) and wirte a basic contact in it
 - To compile the contract run `npx hardhat compile` in your terminal.
+  
+![Screenshot from 2024-03-29 15-56-44](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/72234f0d-8bd3-4370-876d-16eeed709d28)
 
-- paste photo here
 ## Issues i faced while compiling
  - No file to compile error after cmd `npx hardhat compile`
  - Solution :
@@ -52,4 +54,5 @@ npx hardhat init
 ```
 npx hardhat test
 ```
-- paste photo here
+![Screenshot from 2024-03-29 16-10-00](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/f70cb594-315c-48b2-aa5e-9f57ca1be1b5)
+
