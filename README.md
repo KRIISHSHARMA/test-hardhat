@@ -28,26 +28,12 @@ npm install --save-dev hardhat
 ```
 npx hardhat init
 ```
-- Select `Create a JavaScript project`
+- Select `Create a hardhat.config.js`
 - When Hardhat is run, it searches for the closest hardhat.config.js file starting from the current working directory. This file normally lives in the root of your project and an empty hardhat.config.js is enough for Hardhat to work. The entirety of your setup is contained in this file.
 
 # Writing and Compiling Contracts 
-- In your /contracts directory, go ahead and delete the Lock.sol that Hardhat includes for you by default
-- Run create a sol file
-- for example creating a faucet contract
-
-# Adding Testfile structure 
-- building unit test for the contract
-- In the /test folder, clean and rename the sample file included by Hardhat either from Lock.js to FaucetTests.js as Lock.js is the unit test for already made Lock.sol contract that we deleted
-- create a test file to test your contract
-
-
-
-
-
-
-
-
-
-
-
+## Issues i faced 
+ - No file to compile error after cmd `npx hardhat commit`
+ - Solution :
+    1. Make sure that the solidity version in `hardhat.config.js` is the same as in Token.sol or any solidity file you create
+    2. Move your Sol file to a `contract` folder 
