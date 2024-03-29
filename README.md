@@ -30,9 +30,14 @@ npx hardhat init
 ```
 - Select `Create a hardhat.config.js`
 - When Hardhat is run, it searches for the closest hardhat.config.js file starting from the current working directory. This file normally lives in the root of your project and an empty hardhat.config.js is enough for Hardhat to work. The entirety of your setup is contained in this file.
+- paste photo here
 
 # Writing and Compiling Contracts 
-## Issues i faced 
+- Make a Token.sol (or file with any name) and wirte a basic contact in it
+- To compile the contract run `npx hardhat` compile in your terminal.
+
+- paste photo here
+## Issues i faced while compiling
  - No file to compile error after cmd `npx hardhat commit`
  - Solution :
     1. Make sure that the solidity version in `hardhat.config.js` is the same as in Token.sol or any solidity file you create
