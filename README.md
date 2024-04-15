@@ -77,3 +77,5 @@ module.exports = TokenModule;
 ``` sh
 npx hardhat ignition deploy ./ignition/modules/Token.js --network <network-name>
 ```
+![image](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/f226f3be-a6eb-4c69-901a-7baa6954780d)
+
