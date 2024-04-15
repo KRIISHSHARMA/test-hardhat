@@ -61,4 +61,15 @@ npx hardhat test
 - Ignition modules are expected to be within the ./ignition/modules directory.
 - If aleady not made , make new directory ignition inside the project root's directory, then, create a directory named modules inside of the ignition directory
 - new directory ignition inside the project root's directory, then, create a directory named modules inside of the ignition directory
-- 
+- Make Token.js inside same directory
+``` sh
+const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
+
+const TokenModule = buildModule("TokenModule", (m) => {
+  const token = m.contract("Token");
+
+  return { token };
+});
+
+module.exports = TokenModule;
+```
