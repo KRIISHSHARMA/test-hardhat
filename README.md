@@ -56,4 +56,9 @@ npx hardhat test
 ```
 ![Screenshot from 2024-03-29 16-10-00](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/f70cb594-315c-48b2-aa5e-9f57ca1be1b5)
 
-# Deploying to a live netwok
+# Deploying to a live network (hardhat)
+- In Hardhat Ignition, deployments are defined through Ignition Modules
+- Ignition modules are expected to be within the ./ignition/modules directory.
+- If aleady not made , make new directory ignition inside the project root's directory, then, create a directory named modules inside of the ignition directory
+- new directory ignition inside the project root's directory, then, create a directory named modules inside of the ignition directory
+- 
