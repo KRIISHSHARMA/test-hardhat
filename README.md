@@ -73,3 +73,7 @@ const TokenModule = buildModule("TokenModule", (m) => {
 
 module.exports = TokenModule;
 ```
+- To tell Hardhat to connect to a specific network, you can use the --network parameter when running any task, like this:
+``` sh
+npx hardhat ignition deploy ./ignition/modules/Token.js --network <network-name>
+```
