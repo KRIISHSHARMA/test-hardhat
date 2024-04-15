@@ -80,3 +80,5 @@ npx hardhat ignition deploy ./ignition/modules/Token.js --network <network-name>
 ![image](https://github.com/KRIISHSHARMA/test-hardhat/assets/86760658/f226f3be-a6eb-4c69-901a-7baa6954780d)
 
 - But Will have to use a diff network to verfiy as if using hardhart network `You are running Hardhat Ignition against an in-process instance of Hardhat Network. This will execute the deployment, but the results will be lost. You can use --network <network-name> to deploy to a different network.`
+
+- To Run in ethreum testnet :
